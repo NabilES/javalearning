@@ -1,14 +1,14 @@
 import java.util.*;
 import java.util.Scanner;
-class myinfo{
+class Myinfo{
     String name;
     int age;
     long phoneno;
     String email;
 }
-public class classandobject{
+public class Classandobject{
     public static void main(String[] args){
-        myinfo n1=new myinfo();
+        Myinfo n1=new Myinfo();
         n1.name = "Nabil";
         System.out.println("Name:" + n1.name);
         Scanner sc = new Scanner(System.in);
